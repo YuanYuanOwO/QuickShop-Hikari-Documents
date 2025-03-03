@@ -4,14 +4,14 @@ sidebar_position: 1
 
 # Welcome to QuickShop-Hikari Documents
  
-QuickShop Hikari is a shop plugin for Minecraft that lets the players to create chest shops, which allows them to easily sell and buy items from others without using any commands.  
-In fact, all commands in QuickShop are not even needed for normal gameplay.
+QuickShop Hikari is a shop plugin for Minecraft that lets the players create chest shops, which allows them to quickly sell and buy items from others without using any commands.  
+All commands in QuickShop are not even needed for regular gameplay.
 
-This version of QuickShop ([Ghost-chu/QuickShop-Hikari][quickshop-hikari]) is a fork
+This version of QuickShop ([QuickShop-Community/QuickShop-Hikar][quickshop-hikari]) is a fork
 from [PotatoCraft-Studio's version][quickshop-potato] which itself is a fork from the [Reremake][quickshop-ghostchu] of
 the [original QuickShop][quickshop-original].
 
-QuickShop Hikari is maintained by Ghost-chu and has the goal to modernize the core content of QuickShop and adapt it to
+QuickShop Hikari is maintained by creatorfromhell and has the goal of modernizing the core content of QuickShop and adapting it to
 the latest versions of Minecraft.
 
 [quickshop-hikari]: https://github.com/QuickShop-Community/QuickShop-Hikari
@@ -24,8 +24,8 @@ the latest versions of Minecraft.
 
 ## Help us translate or improve the documents
 
-For translate, please check here: https://crowdin.com/project/quickshop-hikari-documents  
+For translation, please check here: https://crowdin.com/project/quickshop-hikari-documents  
 
-If you want help us improve the page, please switch to `American English` and click `Edit this page` on the document bottom to open a Pull Request on Github.
+If you want to help us improve the page, please switch to `American English` and click `Edit this page` at the bottom of the document to open a Pull Request on Github.
 
 
