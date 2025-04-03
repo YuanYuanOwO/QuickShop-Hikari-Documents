@@ -1,4 +1,4 @@
-# 价格限制
+# Price Limiter
 
 QuickShop provide a price limiter allow you specific the item's min or max price on your server.
 
@@ -77,6 +77,6 @@ The `max` means the item maxmium price.
 
 All items in one rule set to share the same price limit, to give different price limit, you must create another rule.
 
-## 权限
+## Permission
 
 The players who has `quickshop.price.restriction.bypass.<rule-name>` can ignore that rule's limitation.
