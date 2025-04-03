@@ -4,7 +4,7 @@ This documents is built using [Docusaurus 2](https://docusaurus.io/), a modern s
 
 ### Help us translate / improve this document
 
-For translate, please check here: https://crowdin.com/project/quickshop-hikari-documents  
+For translate, please check here: [Crowdin](https://crowdin.com/project/qs-hikari-docs)  
 
 If you want help us improve the page, please switch to `American English` and click `Edit this page` on the document bottom to open a Pull Request.
 
