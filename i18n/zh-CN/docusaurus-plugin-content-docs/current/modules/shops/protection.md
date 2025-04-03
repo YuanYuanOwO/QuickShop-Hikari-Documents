@@ -1,4 +1,4 @@
-# 商店保护
+# Shop Protection
 
 ## Player Protection
 

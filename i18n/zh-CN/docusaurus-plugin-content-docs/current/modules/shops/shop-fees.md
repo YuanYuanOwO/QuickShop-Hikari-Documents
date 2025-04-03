@@ -2,7 +2,7 @@
 
 QuickShop allow server administrator setup the shops fees for creating, changing prices.
 
-## 配置
+## Configuration
 
 ```yaml
 shop:
@@ -61,7 +61,7 @@ If player cannot afford the ongoing-fee, the shops will be deleted.
 
 QuickShop provide a system that allow you to tax.
 
-### 配置
+### Configuration
 
 ```yaml
 #Tax amount (decimal)
