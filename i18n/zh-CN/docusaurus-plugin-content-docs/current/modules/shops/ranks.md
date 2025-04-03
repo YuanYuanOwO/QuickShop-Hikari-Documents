@@ -6,7 +6,7 @@ QuickShop provides a ranks system to allow control the maximum shops that player
 
 This feature is permission based and permission will be generated dynamically.
 
-## 配置
+## Configuration
 
 ```yaml
 #Limits the amount of shops a player can create and own.
