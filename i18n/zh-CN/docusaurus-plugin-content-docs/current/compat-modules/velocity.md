@@ -8,7 +8,7 @@
 
 这是一个 Velocity 插件，你需要在你的 Velocity 的插件文件夹中安装它
 
-## 它是如何工作的？
+## How does it work?
 
 Velocity Bridge 插件将注册 `quickshop:bungee` 频道用于转发玩家聊天，当子服务器等待玩家输入时会将聊天强制转发到子服务器。 （是的，即使是 Velocity 也会使用 `bungee` 频道。） (yes, even Velocity will also use `bungee` channel.)
 
