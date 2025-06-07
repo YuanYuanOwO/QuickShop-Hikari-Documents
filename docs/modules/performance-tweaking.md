@@ -80,7 +80,7 @@ include-offlineplayer-list: false
 
 :::note
 
-This feature is **ENABLED** by default.
+This feature is **DISABLED** by default.
 
 :::
 
