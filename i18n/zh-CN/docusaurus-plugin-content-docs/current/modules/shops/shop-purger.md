@@ -2,7 +2,7 @@
 
 Shop Purger allow server administrator purge the shops if the player in idle or banned.
 
-## 配置
+## Configuration
 
 ```yaml
 # Shops purger
