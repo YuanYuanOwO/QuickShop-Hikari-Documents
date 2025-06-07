@@ -1,8 +1,8 @@
-# 多币种支持
+# Multi Currency
 
-QuickShop-Hikari支持一些多货币经济插件或桥接插件，但它们不是开箱即用的，您必须配置它们才能生效。
+QuickShop-Hikari supports some Multi-Currency economy plugin or bridge plugin, but they're not out of the box, you must configure them to take effect.
 
-## 支持的经济插件
+## Supported Economy Plugin
 
 QuickShop-Hikari currently supports multi-currency economy plugins that support [VaultUnlocked](https://modrinth.com/plugin/vaultunlocked)
 
@@ -19,9 +19,9 @@ To enable multi-currency feature, you need to use VaultUnlocked instead of the V
 economy-type: 0
 ```
 
-## 商店默认货币
+## Set default currency
 
-您需要为默认使用设置一种货币（例如新商店默认货币），并在 config.yml 中进行配置：
+You need to set a currency for default usage (like new shop default currency),and configure it in config.yml:
 
 ```yaml
 # The currency used to create shops.
@@ -30,9 +30,9 @@ economy-type: 0
 currency: ''
 ```
 
-## 设置多货币备用符号
+## Set multi-currency alternate symbol
 
-您可以为符号设置备用符号，QuickShop-Hikari将在文本中对特定货币的符号替换为备用符号。
+You can set a alternate for symbols, QuickShop-Hikari will use alternate for specific currencies in text.
 
 ```yaml
   # This setting is for multi-currency setups.
@@ -42,15 +42,15 @@ currency: ''
   - CNY;￥
 ```
 
-## 更改商店的货币
+## Change the currency for shops
 
 Looking at a shop, execute `/quickshop currency <new-currency>` to change shop currency.
 
-## 持续费用货币
+## Ongoing Fee Currency
 
 OngoingFee will always use server scope default currency (`currency`).
 
-## 商店税收货币
+## Shop Tax Currency
 
 Shop tax will use per-shop currency with global tax rate (cannot change yet).\
 If you really want this feature, open a Feature Request on our Issue Tracker!
