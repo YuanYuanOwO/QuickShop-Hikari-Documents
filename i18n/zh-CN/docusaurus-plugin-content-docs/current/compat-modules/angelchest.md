@@ -8,7 +8,7 @@
 
 该拓展模块增加了对 [AngelChest](https://www.spigotmc.org/resources/88214) 插件的支持。
 
-## 它是如何工作的?
+## How does it work?
 
 本拓展模块将会注册针对 IslandDeletedEvent、IslandResettedEvent、TeamLeaveEvent 和 TeamLeaveEvent 调用的监听器，并会在岛屿删除或成员被踢出时移除对应的商店。
 
