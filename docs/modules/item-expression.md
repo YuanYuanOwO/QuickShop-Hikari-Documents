@@ -25,12 +25,6 @@ Please also check [here](item-ref.md)
 
 ## Matching with Enchantment
 
-:::info
-
-This feature added since Hikari-4.0.0.0.
-
-:::  
-
 Add `%` prefix before enchantment namespaced key.
 
 ```yaml
