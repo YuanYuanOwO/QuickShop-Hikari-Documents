@@ -8,7 +8,7 @@
 
 此模块已添加 [Residence](https://www.spigotmc.org/resources/residence-1-7-10-up-to-1-19.11480/) 支持。
 
-## 它是如何工作的？
+## How does it work?
 
 此模块用于注册两种权限 `quickshop-create` and `quickshop-trade` 到您的领地权限管理。\
 您可以使用它们来控制您领地的玩家权限。\
