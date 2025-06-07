@@ -4,17 +4,13 @@ QuickShop 提供了一个很酷的功能，让玩家识别商店物品。
 
 ## 工作模式
 
-悬浮物有两个不同的工作模式：
+Display Item has one work mode:
 
-- Real DisplayItem
 - Virtual DisplayItem
 
 ## Real DisplayItem
 
-This work mode will spawn a Item entity on the shop container, this is the original display mode.\
-Real DisplayItem is out of the box and doesn't need any configure.\
-BUT, it will heavy impact the server performance when many shops are loaded in same time.\
-It also have risk that allow players dupe items, because the item is real exists on the server.
+This work mode has been removed. If you were using it before, QuickShop will be disabled display item globally.
 
 ## Virtual DisplayItem
 
@@ -23,6 +19,8 @@ It also have risk that allow players dupe items, because the item is real exists
 Player _can_ see the item BUT it actually not exists on the server, it won't affect the server performance and more security.
 
 要使用此功能，您需要安装 [ProtocolLib](https://www.spigotmc.org/resources/protocollib.1997/) 并设置 `display-type` 到 `2`。
+
+If you want to use [PacketEvents](https://modrinth.com/plugin/packetevents) as a Virtual DisplayItem, you need set `display-protocol` to `packetevents`.
 
 ## 配置
 
