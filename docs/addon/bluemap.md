@@ -6,7 +6,7 @@ Can't find where to download the JAR? [Click here](../faq/where-addons-compacts-
 
 :::
 
-BlueMap Addon can display the QuickShop-Hikari shops on your [BlueMap](https://modrinth.com/plugin/bluemap) instance!
+BlueMap Addon can display the shop on your [BlueMap](https://modrinth.com/plugin/bluemap) instance!
 
 ## Showcase
 
