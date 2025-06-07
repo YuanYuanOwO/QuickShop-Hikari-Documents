@@ -4,32 +4,20 @@ QuickShop-Hikari支持一些多货币经济插件或桥接插件，但它们不�
 
 ## 支持的经济插件
 
-QuickShop-Hikari当前支持以下多币种经济插件：
-
-- GemsEconomy
-- TheNewEconomy
-- CoinsEngine
--
+QuickShop-Hikari currently supports multi-currency economy plugins that support [VaultUnlocked](https://modrinth.com/plugin/vaultunlocked)
 
 <!--* Any other economy plugin that support [Reserve](https://www.spigotmc.org/resources/50739/)-->
 
 ## Enable Multi-Currency support
 
-要启用多币种功能，您需要将 QuickShop 经济处理器配置为支持的模式，这可以在 config.yml 中进行配置：
+To enable multi-currency feature, you need to use VaultUnlocked instead of the Vault plugin
 
 ```yaml
-# What economy provider should QuickShop use?
-# 0=Vault
-# 3=GemsEconomy with Multi-Currency on
-# 4=TNE with Multi-Currency on
-# 5=CoinsEngine with Multi-Currency on (experimental)
-# 6=Treasury with Multi-Currency on (experimental)
-# DO NOT TOUCH THIS IF YOU DON'T KNOW WHAT IT DOES. ASK FOR SUPPORT BEFORE TOUCHING THIS!
+#What economy provider should QuickShop use?
+#0=Vault/VaultUnlocked - VaultUnlocked supports multi-currency if you economy plugin supports it.
+#DO NOT TOUCH THIS IF YOU DON'T KNOW WHAT IT DOES. ASK FOR SUPPORT BEFORE TOUCHING THIS!
 economy-type: 0
 ```
-
-Set `economy-type` to `3-6` will enable the Multi-Currency feature.\
-Note: Only one processor can be enabled in same time which mean once you choose `3-6`, Vault will be disabled.
 
 ## 商店默认货币
 
@@ -56,7 +44,7 @@ currency: ''
 
 ## 更改商店的货币
 
-Looking at a quickshop, execute `/quickshop currency <new-currency>` to change shop currency.
+Looking at a shop, execute `/quickshop currency <new-currency>` to change shop currency.
 
 ## 持续费用货币
 
