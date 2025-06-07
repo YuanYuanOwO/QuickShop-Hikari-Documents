@@ -4,31 +4,20 @@ QuickShop-Hikari supports some Multi-Currency economy plugin or bridge plugin, b
 
 ## Supported Economy Plugin
 
-QuickShop-Hikari current supports the multi-Currency economy plugin below:
+QuickShop-Hikari currently supports multi-currency economy plugins that support [VaultUnlocked](https://modrinth.com/plugin/vaultunlocked)
 
-* GemsEconomy
-* TheNewEconomy
-* CoinsEngine
-* 
 <!--* Any other economy plugin that support [Reserve](https://www.spigotmc.org/resources/50739/)-->
 
 ## Enable Multi-Currency support
 
-To enable multi-currency feature, you need to configure QuickShop economy processor to a supported mode, this can be configured in config.yml:
+To enable multi-currency feature, you need to use VaultUnlocked instead of the Vault plugin
 
 ```yaml
-# What economy provider should QuickShop use?
-# 0=Vault
-# 3=GemsEconomy with Multi-Currency on
-# 4=TNE with Multi-Currency on
-# 5=CoinsEngine with Multi-Currency on (experimental)
-# 6=Treasury with Multi-Currency on (experimental)
-# DO NOT TOUCH THIS IF YOU DON'T KNOW WHAT IT DOES. ASK FOR SUPPORT BEFORE TOUCHING THIS!
+#What economy provider should QuickShop use?
+#0=Vault/VaultUnlocked - VaultUnlocked supports multi-currency if you economy plugin supports it.
+#DO NOT TOUCH THIS IF YOU DON'T KNOW WHAT IT DOES. ASK FOR SUPPORT BEFORE TOUCHING THIS!
 economy-type: 0
 ```
-
-Set `economy-type` to `3-6` will enable the Multi-Currency feature.  
-Note: Only one processor can be enabled in same time which mean once you choose `3-6`, Vault will be disabled.
 
 ## Set default currency
 
@@ -44,7 +33,7 @@ currency: ''
 ## Set multi-currency alternate symbol
 
 You can set a alternate for symbols, QuickShop-Hikari will use alternate for specific currencies in text.
- 
+
 ```yaml
   # This setting is for multi-currency setups.
   # If nothing matches in this list, it falls back to the name of currency itself.
@@ -55,7 +44,7 @@ You can set a alternate for symbols, QuickShop-Hikari will use alternate for spe
 
 ## Change the currency for shops
 
-Looking at a quickshop, execute `/quickshop currency <new-currency>` to change shop currency.
+Looking at a shop, execute `/quickshop currency <new-currency>` to change shop currency.
 
 ## Ongoing Fee Currency
 
