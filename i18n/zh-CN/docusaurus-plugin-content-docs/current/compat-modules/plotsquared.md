@@ -8,7 +8,7 @@
 
 此模块添加了对 [PlotSquared v6](https://www.spigotmc.org/resources/plotsquared-v6.77506/) 的支持。
 
-## 它是如何工作的？
+## How does it work?
 
 This module will register two of flags `quickshop-create` and `quickshop-trade` into your PSv6 permission flags registry.\
 You can use them to control the players permission in your plot.

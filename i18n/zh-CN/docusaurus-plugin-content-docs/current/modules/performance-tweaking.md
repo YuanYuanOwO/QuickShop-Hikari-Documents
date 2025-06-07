@@ -80,7 +80,7 @@ include-offlineplayer-list: false
 
 :::note
 
-默认情况下，此功能为 **启用**。
+This feature is **DISABLED** by default.
 
 :::
 

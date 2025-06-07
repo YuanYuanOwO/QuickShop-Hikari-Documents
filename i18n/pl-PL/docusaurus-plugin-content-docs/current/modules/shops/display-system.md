@@ -4,17 +4,13 @@ QuickShop provide a cool feature that let player identify shops item.
 
 ## Work Mode
 
-Display Item have two different work mode:
+Display Item has one work mode:
 
-- Real DisplayItem
 - Virtual DisplayItem
 
 ## Real DisplayItem
 
-This work mode will spawn a Item entity on the shop container, this is the original display mode.\
-Real DisplayItem is out of the box and doesn't need any configure.\
-BUT, it will heavy impact the server performance when many shops are loaded in same time.\
-It also have risk that allow players dupe items, because the item is real exists on the server.
+This work mode has been removed. If you were using it before, QuickShop will be disabled display item globally.
 
 ## Virtual DisplayItem
 
@@ -22,6 +18,8 @@ This work mode will send a Item packet to player's client to trick client displa
 Player _can_ see the item BUT it actually not exists on the server, it won't affect the server performance and more security.
 
 To use this feature, you need to install [ProtocolLib](https://www.spigotmc.org/resources/protocollib.1997/) and set `display-type` to `2`.
+
+If you want to use [PacketEvents](https://modrinth.com/plugin/packetevents) as a Virtual DisplayItem, you need set `display-protocol` to `packetevents`.
 
 ## Configuration
 

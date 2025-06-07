@@ -8,7 +8,7 @@ Can't find where to download the JAR? [Click here](../faq/where-addons-compacts-
 
 This compatibility module adds [AngelChest](https://www.spigotmc.org/resources/88214) support.
 
-## How it works?
+## How does it work?
 
 Compatibility Module will register a listener to listen for IslandDeletedEvent, IslandResettedEvent, TeamLeaveEvent and TeamKickEvent calls, and will remove shops when an island gets deleted or a team member is kicked from that island.
 
