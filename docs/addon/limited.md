@@ -6,12 +6,6 @@ Can't find where to download the JAR? [Click here](../faq/where-addons-compacts-
 
 :::
 
-:::info
-
-This addon was added into QuickShop-Hikari at 4.1.0.0-SNAPSHOT
-
-:::
-
 This addon allows store owners to set a limit on the number of sales for their store over a period of time.
 
 ## Permissions

@@ -47,7 +47,7 @@ You can purge them by execute command:
 
 :::note
 
-This feature is **ENABLED** by default but only works if you have ProtocolLib installed.
+This feature is **ENABLED** by default but only works if you have ProtocolLib or PacketEvents installed.
 
 :::  
 

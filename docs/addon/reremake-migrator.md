@@ -6,12 +6,6 @@ Can't find where to download the JAR? [Click here](../faq/where-addons-compacts-
 
 :::
 
-:::info
-
-This addon was added into QuickShop-Hikari at 5.1.1.0
-
-:::
-
 :::caution
 
 This Addon is still in an experimental stage, so please manage your backup files properly before using it. Use at your own risk.
