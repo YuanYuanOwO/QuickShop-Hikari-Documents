@@ -4,8 +4,7 @@ This page will walk you through the process of installing QuickShop-Hikari on yo
 
 ## Requirements
 
-* A [Spigot][spigot]-based Minecraft server (1.20 or higher, Java 21)
-  * You can also use [Paper][paper], which is a fork of Spigot for better compatibility, more features and higher performance.
+* A [Paper][paper]-based Minecraft server (1.20 or higher, Java 21)
 * [Vault][vault] for bridging the economy system between QuickShop and your economy plugins.
 * [ProtocolLib][plib] for virtual display item, Per-player localization.
 * Any Vault compatible economy plugin, such as [XConomy][xconomy], If you have [EssentialsX][essx], it will also works well.
@@ -52,7 +51,6 @@ For advanced permission setup, you can check [here](./permissions.md).
 
 Now QuickShop-Hikari is running on your server, for more settings, check the navigation panel on the left and see different sections.
 
-[spigot]: https://www.spigotmc.org/wiki/buildtools/
 [paper]: https://papermc.io/
 [vault]: https://www.spigotmc.org/resources/34315/
 [xconomy]: https://www.spigotmc.org/resources/75669/
