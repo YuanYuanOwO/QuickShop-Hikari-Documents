@@ -16,7 +16,7 @@ Looking at a quickshop, execute command `/quickshop permission group list` will 
 QuickShop-Hikari has built-in groups below:
 
 * quickshop-hikari.blocked - All players in this shop will cannot purchase this shop.
-* quickshop-hiakri.everyone - All undefined players will have this group's permissions.
+* quickshop-hikari.everyone - All undefined players will have this group's permissions.
 * quickshop-hikari.staff - Use command `/quickshop staff` will add that player into this group.
 * quickshop-hikari.administrator - Exactly same permission with shop owner, can do almost everything on this shop.
 
@@ -26,7 +26,7 @@ QuickShop-Hikari has built-in permissions in the list below:
 
 * quickshop-hikari.purchase  
   Any players who own this permission can purchase with this shop.
-* quickshop-hiakri.show_information  
+* quickshop-hikari.show_information  
   Any players who own this permission can open shop purchase info panel.
 * quickshop-hikari.preview_shop  
   Any players who own this permission will have a `[Preview Item]` button on shop purchase info panel and allow to open this shop's preview GUI.

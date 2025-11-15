@@ -73,7 +73,7 @@ The item name can be [Bukkit Material Name](https://hub.spigotmc.org/javadocs/sp
 The `currency` only works under [Multi Currency](../multi-currency.md) mode.
 
 The `min` means the item minimal price.  
-The `max` means the item maxmium price.  
+The `max` means the item maximum price.  
 
 All items in one rule set to share the same price limit, to give different price limit, you must create another rule.   
 

@@ -17,7 +17,7 @@ When a possible conflict detected by QuickShop and this operation triggered by S
 
 ![detected](img/permission-checker-conflict-demo.png)
 
-You can retrieve those infomations from the tips:
+You can retrieve those information from the tips:
 
 * PluginName (`BreakTest`)
 * Plugin Listener Class Name (`com.ghsotchu.test.breaktest.TestListener`)

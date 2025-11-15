@@ -57,7 +57,7 @@ To uninstall a Discount Code, you need use command:
 /quickshop discount uninstall <code>
 ```
 
-## Show detailes for a installed discount code
+## Show details for a installed discount code
 
 To use `info` subcommand, you can query the code creator, range, remaining usage, expired time, threshold and discount rate.
 
@@ -77,7 +77,7 @@ To remove your a specified discount code, execute command:
 
 ## Check if discount code can be applied to specific shop
 
-You need install a discount code first, then you click the shop you want to check, a promot message will show up when you can enjoy the discount in this shop.  
+You need install a discount code first, then you click the shop you want to check, a promote message will show up when you can enjoy the discount in this shop.  
 If code not accepted by target shop, you will also receive a warning message when you click it.  
 
 ![](https://user-images.githubusercontent.com/30802565/208291999-a32277bb-4111-4dde-bcd4-1d5f5b40ce9e.png)
@@ -85,7 +85,7 @@ If code not accepted by target shop, you will also receive a warning message whe
 ## Apply the discounting
 
 You need install a discount code first, then purchase a shop that accept your code.  
-Then discount will applied to your puchase, and your remaining count will be consumed.
+Then discount will applied to your purchase, and your remaining count will be consumed.
 
 ![](https://user-images.githubusercontent.com/30802565/208292084-633fe7e1-239c-4b8c-99b2-87fc9e824e1f.png)
 
@@ -93,7 +93,7 @@ Then discount will applied to your puchase, and your remaining count will be con
 
 ## Auto Purge Expired Code
 
-An expired discount code will automaticlly removed while server startup or in 30mins.  
+An expired discount code will automatically removed while server startup or in 30mins.  
 Before they got purged, players who use a expired code will receive a error message that says the code has been expired.
 
 ## Convert your time

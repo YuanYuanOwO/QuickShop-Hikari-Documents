@@ -88,7 +88,7 @@ bank-mode:
 
 ## Permission Override
 
-By adjust configuration, you're allow mayor or king automaticlly grant administrator permission on all shops in their management range.
+By adjust configuration, you're allow mayor or king automatically grant administrator permission on all shops in their management range.
 
 ```yaml
 #Should allow Mayor grant the shop administrator permission on they town.

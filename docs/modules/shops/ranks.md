@@ -32,7 +32,7 @@ limits:
 
 In the example above, all players can own up to `10` shops by default, BUT, a permission node `quickshoplol.supervip` was defined that allow player who have that permission own up to `20` shops.
 
-Basiclly, a permission node generate by `<node parent>.<node child>`, that mean you can replace the `quickshoplol` and `supervip` etc to what you want.
+Basically, a permission node generate by `<node parent>.<node child>`, that mean you can replace the `quickshoplol` and `supervip` etc to what you want.
 
 ```yaml
 #Limits the amount of shops a player can create and own.

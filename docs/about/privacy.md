@@ -32,7 +32,7 @@ Note: We respect your bStats global settings, if you has been disabled bStats in
 
 ## Rollbar Error Tracking
 
-We use [Rollbar](https://rollbar.com/) to collect error reports. All errors on your server which related to QuickShop-Hikari will be automaticlly submit to our Rollbar bin.
+We use [Rollbar](https://rollbar.com/) to collect error reports. All errors on your server which related to QuickShop-Hikari will be automatically submit to our Rollbar bin.
 
 You can check Rollbar's Privacy Policy [here](https://docs.rollbar.com/docs/privacy-policy).
 
