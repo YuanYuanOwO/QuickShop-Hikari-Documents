@@ -168,6 +168,11 @@ const config = {
         ],
         copyright: `All contents are licensed under <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</a>. Built with Docusaurus.`,
       },
+      colorMode: {
+        defaultMode: 'dark', // or 'dark', depending on your preference
+        disableSwitch: true,
+        respectPrefersColorScheme: false, // Optional: set to false if you don't want to respect system preferences
+      },
       prism: {
         theme: lightCodeTheme,
         darkTheme: darkCodeTheme,

@@ -89,22 +89,17 @@ export default function Home() {
           {/* SECTION GRID */}
           <section className={styles.sectionGrid}>
             <article className={styles.sectionCard}>
-              <h2>Install &amp; Upgrade</h2>
+              <h2>Installation</h2>
               <p>
-                Learn how to install QuickShop Hikari, update safely, and verify
+                Learn how to install QuickShop Hikari, and verify
                 that everything is working correctly on your server.
               </p>
               <ul>
                 <li>
-                  <Link to="/docs/getting-started/install">Installation</Link>
+                  <Link to="/docs/setup/install">Installation</Link>
                 </li>
                 <li>
-                  <Link to="/docs/getting-started/upgrade">
-                    Upgrading from legacy
-                  </Link>
-                </li>
-                <li>
-                  <Link to="/docs/getting-started/faq">
+                  <Link to="/docs/category/faq">
                     FAQ &amp; common issues
                   </Link>
                 </li>
@@ -124,13 +119,13 @@ export default function Home() {
                   </Link>
                 </li>
                 <li>
-                  <Link to="/docs/configuration/permissions">
+                  <Link to="/docs/setup/permissions">
                     Permissions &amp; roles
                   </Link>
                 </li>
                 <li>
-                  <Link to="/docs/configuration/commands">
-                    Commands &amp; arguments
+                  <Link to="/docs/setup/commands">
+                    Commands &amp; arguments(WIP)
                   </Link>
                 </li>
               </ul>

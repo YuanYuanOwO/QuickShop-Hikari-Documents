@@ -12,14 +12,12 @@
   margin: 0 auto;
   margin-top: 2.5rem;
 
-  /* Pixel panel look */
-  background: rgba(33, 16, 62, 0.95); /* bg-[#21103e]/95 */
-  border: 3px solid #000;             /* border-[3px] border-black */
-  border-radius: 0;                   /* rounded-none */
-  padding: 1rem;                      /* p-4 */
+  background: none;
+  border: none;
+  border-radius: 0;
+  padding: 1rem;
 
-  /* Pixel drop shadow */
-  box-shadow: 0 10px 0 rgba(0, 0, 0, 0.85); /* shadow-[0_10px_0_0_rgba(0,0,0,0.85)] */
+  box-shadow: none;
 
   position: relative;
 }
@@ -98,9 +96,27 @@
   color: #020617;
 }
 
+.heroButtonGhost:hover {
+  background: rgba(19, 22, 39, 0.95);
+}
+
+.heroButtonModrinth:hover {
+  background: rgba(19, 22, 39, 0.95);
+}
+
+.heroButtonPrimary:hover {
+  background: rgba(19, 22, 39, 0.95);
+}
+
+.heroButtonDiscord:hover {
+  background: rgba(19, 22, 39, 0.95);
+}
+
 .heroButton:hover {
   transform: translateY(-1px);
-  box-shadow: 0 6px 0 rgba(0, 0, 0, 0.95);
+  border: 3px solid #facc15;
+  border-radius: 6px;
+  box-shadow: 0 5px 0 rgba(250, 204, 21, 0.9);
 }
 
 .heroButton:active {
@@ -153,12 +169,11 @@
 .sectionCard {
   position: relative;
 
-  background: rgba(33, 16, 62, 0.95);
-  border: 3px solid #000;            
-  border-radius: 6px;               
-  padding: 1rem;                     
-
-  box-shadow: 0 6px 0 rgba(0, 0, 0, 0.85);
+  background: rgba(19, 22, 39, 0.95);
+  border: 3px solid #facc15;
+  border-radius: 6px;
+  box-shadow: 0 10px 0 rgba(250, 204, 21, 0.9);          
+  padding: 1rem;
 
   overflow: hidden;
 }
