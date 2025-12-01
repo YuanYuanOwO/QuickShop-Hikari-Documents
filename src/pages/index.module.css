@@ -1,23 +1,195 @@
-/**
- * CSS files with the .module.css suffix will be treated as CSS modules
- * and scoped locally.
- */
-
-.heroBanner {
-  padding: 4rem 0;
-  text-align: center;
-  position: relative;
-  overflow: hidden;
-}
-
-@media screen and (max-width: 996px) {
-  .heroBanner {
-    padding: 2rem;
-  }
-}
-
-.buttons {
+/* Wrap page in center like the Next.js layout */
+.page {
   display: flex;
+  justify-content: center;
+  padding: 4.5rem 0 4rem;
+}
+
+/* Big panel that holds hero + cards; matches Next.js content card */
+.contentShell {
+  width: 80%;
+  max-width: 1100px;
+  background: linear-gradient(
+    to bottom,
+    rgba(17, 12, 52, 0.97),
+    rgba(7, 4, 26, 0.97)
+  );
+  border-radius: 24px;
+  border: 1px solid rgba(148, 163, 184, 0.45);
+  box-shadow: 0 40px 90px rgba(0, 0, 0, 0.9);
+  padding: 2.75rem 2.5rem 3rem;
+}
+
+/* HERO */
+
+.hero {
+  text-align: center;
+  margin-bottom: 2.4rem;
+}
+
+.heroLogo img {
+  width: 160px;
+  height: auto;
+  margin-bottom: 1.5rem;
+}
+
+.heroTitle {
+  font-size: 1.85rem;
+  text-transform: uppercase;
+  letter-spacing: 0.22em;
+  color: #fcd100;
+  text-shadow: 0 3px 0 rgba(0, 0, 0, 0.85);
+  margin-bottom: 0.6rem;
+}
+
+.heroTagline {
+  max-width: 640px;
+  margin: 0.25rem auto 0;
+  font-size: 0.94rem;
+  color: #e5e7eb;
+}
+
+/* HERO BUTTONS */
+
+.heroButtons {
+  margin-top: 1.8rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.75rem;
+}
+
+.heroButton {
+  font-size: 0.7rem;
+  font-weight: 800;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  border-radius: 10px;
+  border: 3px solid #000;
+  padding: 0.55rem 1.2rem;
+  text-decoration: none !important;
+  box-shadow: 0 5px 0 rgba(0, 0, 0, 0.95);
+  display: inline-flex;
   align-items: center;
   justify-content: center;
+}
+
+.heroButtonPrimary {
+  background: linear-gradient(to bottom, #ffd54d, #ff9800);
+  color: #020617;
+}
+
+.heroButtonGhost {
+  background: #1f2937;
+  color: #e5e7eb;
+}
+
+.heroButton:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 6px 0 rgba(0, 0, 0, 0.95);
+}
+
+.heroButton:active {
+  transform: translateY(2px);
+  box-shadow: 0 3px 0 rgba(0, 0, 0, 0.95);
+}
+
+/* HERO META LINE */
+
+.heroMeta {
+  margin-top: 1rem;
+  font-size: 0.68rem;
+  text-transform: uppercase;
+  letter-spacing: 0.18em;
+  color: #9ca3af;
+}
+
+.dot {
+  display: inline-block;
+  width: 7px;
+  height: 7px;
+  border-radius: 999px;
+  margin-right: 0.25rem;
+}
+
+.dotGreen {
+  background: #22c55e;
+}
+
+.dotBlue {
+  background: #38bdf8;
+}
+
+.dotPink {
+  background: #ec4899;
+}
+
+.metaSep {
+  margin: 0 0.5rem;
+}
+
+/* SECTION GRID */
+
+.sectionGrid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1.4rem;
+}
+
+.sectionCard {
+  background: radial-gradient(circle at top left, #1f163d 0, #050312 70%);
+  border-radius: 18px;
+  border: 1px solid rgba(148, 163, 184, 0.45);
+  padding: 1.25rem 1.35rem 1.3rem;
+  box-shadow: 0 18px 40px rgba(0, 0, 0, 0.85);
+}
+
+.sectionCard h2 {
+  font-size: 0.96rem;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: #fcd100;
+  margin-bottom: 0.5rem;
+}
+
+.sectionCard p {
+  font-size: 0.86rem;
+  color: #e5e7eb;
+  margin-bottom: 0.75rem;
+}
+
+.sectionCard ul {
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
+}
+
+.sectionCard li + li {
+  margin-top: 0.35rem;
+}
+
+.sectionCard a {
+  font-size: 0.8rem;
+  color: #a5b4fc;
+  text-decoration: none;
+}
+
+.sectionCard a:hover {
+  color: #c7d2fe;
+  text-decoration: underline;
+}
+
+@media (max-width: 996px) {
+  .page {
+    padding: 3rem 0 3rem;
+  }
+
+  .contentShell {
+    width: 92%;
+    padding: 2rem 1.35rem 2.4rem;
+  }
+
+  .sectionGrid {
+    grid-template-columns: 1fr;
+  }
 }
