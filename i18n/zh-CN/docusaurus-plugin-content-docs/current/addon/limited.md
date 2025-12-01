@@ -1,16 +1,16 @@
 # Limited Addon
 
-:::info
+\:::info
 
 找不到在哪里下载JAR？ [点击这里](../faq/where-addons-compacts-at.md). [Click here](../faq/where-addons-compacts-at.md).
 
-:::
+\:::
 
-:::info
+\:::info
 
 此插件在 4.1.0.0-SNAPSHOT 添加到 QuickShop-Hikari 中
 
-:::
+\:::
 
 此插件允许商店所有者对其商店在一段时间内的销售数量设置限制。
 

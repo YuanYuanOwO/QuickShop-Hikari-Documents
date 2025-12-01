@@ -1,10 +1,10 @@
 # GreifPrevention
 
-:::info
+\:::info
 
 找不到在哪里下载JAR？ [点击这里](../faq/where-addons-compacts-at.md). [Click here](../faq/where-addons-compacts-at.md).
 
-:::
+\:::
 
 GreifPrevention 兼容模块添加了与 GF 的兼容性。
 

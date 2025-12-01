@@ -1,16 +1,16 @@
 # Towny
 
-:::info
+\:::info
 
 找不到在哪里下载JAR？ [点击这里](../faq/where-addons-compacts-at.md). [Click here](../faq/where-addons-compacts-at.md).
 
-:::
+\:::
 
-:::caution
+\:::caution
 
 Warning! 警告！ 这是一个超级复杂的模块，请仔细阅读文档！
 
-:::
+\:::
 
 ## 命令
 

@@ -1,22 +1,22 @@
 # Reremake Migrator Addon
 
-:::info
+\:::info
 
 Can't find where to download the JAR? [Click here](../faq/where-addons-compacts-at.md).
 
-:::
+\:::
 
-:::info
+\:::info
 
 This addon was added into QuickShop-Hikari at 5.1.1.0
 
-:::
+\:::
 
-:::caution
+\:::caution
 
 This Addon is still in an experimental stage, so please manage your backup files properly before using it. Use at your own risk.
 
-:::
+\:::
 
 This addon added a migrator that allow users easily migrate from [QuickShop-Reremake](https://www.spigotmc.org/resources/62575/) to QuickShop-Hikari.
 
@@ -24,11 +24,11 @@ This addon added a migrator that allow users easily migrate from [QuickShop-Rere
 
 ## Step by step tutorial
 
-:::info
+\:::info
 
 Please note that if you are unable to understand the content of this tutorial, please join our Discord channel or ask other professional server owners / operators.
 
-:::
+\:::
 
 ### Backup everything
 

@@ -1,10 +1,10 @@
 # NoCheatPlus
 
-:::info
+\:::info
 
 Can't find where to download the JAR? [Click here](../faq/where-addons-compacts-at.md).
 
-:::
+\:::
 
 This compatibility module added compatibility with NoCheatPlus.
 

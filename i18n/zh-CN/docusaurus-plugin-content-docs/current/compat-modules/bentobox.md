@@ -1,10 +1,10 @@
 # BentoBox
 
-:::info
+\:::info
 
 找不到在哪里下载JAR？ [点击这里](../faq/where-addons-compacts-at.md). [Click here](../faq/where-addons-compacts-at.md).
 
-:::
+\:::
 
 该拓展模块增加了对 [BentoBox](https://www.spigotmc.org/resources/73261) 插件的支持。
 

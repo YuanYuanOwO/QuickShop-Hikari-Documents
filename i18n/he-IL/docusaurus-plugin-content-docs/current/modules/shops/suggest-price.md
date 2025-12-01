@@ -1,10 +1,10 @@
 # Suggest Price
 
-:::info
+\:::info
 
 This feature added in 6.0.0.0.
 
-:::
+\:::
 
 This feature provides your players with price suggestions for items of interest on your server by command `/quickshop suggestprice`.
 

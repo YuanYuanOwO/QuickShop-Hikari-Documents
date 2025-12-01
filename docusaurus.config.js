@@ -11,7 +11,6 @@ const config = {
   url: 'https://quickshop-community.github.io/',
   baseUrl: '/QuickShop-Hikari-Documents',
   onBrokenLinks: 'throw',
-  onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
   trailingSlash: false,
   // GitHub pages deployment config.
@@ -26,6 +25,11 @@ const config = {
     defaultLocale: 'en-US',
     //locales: ['af-ZA', 'ar-SA', 'bg-BG', 'ca-ES', 'cs-CZ', 'da-DK', 'de-DE', 'el-GR', 'en-US', 'es-ES', 'fi-FI', 'fr-FR', 'he-IL', 'hi-IN', 'hu-HU', 'it-IT', 'ja-JP', 'ko-KR', 'lt-LT', 'nl-NL', 'no-NO', 'pl-PL', 'pt-BR', 'pt-PT', 'ro-RO', 'ru-RU', 'sr-Cyrl', 'sr-SP', 'sv-SE', 'th-TH', 'tr-TR', 'uk-UA', 'vi-VN', 'zh-CN', 'zh-HK', 'zh-TW'],
     locales: [ 'de-DE', 'en-US', 'ja-JP', 'zh-CN', 'zh-HK', 'zh-TW'],
+  },
+  markdown: {
+    hooks: {
+      onBrokenMarkdownLinks: 'warn',
+    },
   },
   themes: [
     [

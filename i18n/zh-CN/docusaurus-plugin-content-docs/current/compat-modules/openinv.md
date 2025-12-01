@@ -1,10 +1,10 @@
 # OpenInv兼容模块
 
-:::info
+\:::info
 
 找不到在哪里下载JAR？ [点击这里](../faq/where-addons-compacts-at.md). [Click here](../faq/where-addons-compacts-at.md).
 
-:::
+\:::
 
 此兼容模块允许玩家使用末影箱作为商店容器，并分享末影箱内的内容。
 

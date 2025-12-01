@@ -1,10 +1,10 @@
 # BungeeCord-Geyser插件
 
-:::info
+\:::info
 
 找不到在哪里下载JAR？ [点击这里](../faq/where-addons-compacts-at.md). [Click here](../faq/where-addons-compacts-at.md).
 
-:::
+\:::
 
 这是一个 BungeeCord 插件，你需要将其安装在 BungeeCord 的插件文件夹下。 除此之外，你还需要安装 [Addon-BungeeCord](./bungeecord.md) 插件。 You also need the dependant plugin [Addon-BungeeCord](./bungeecord.md).
 

@@ -1,10 +1,10 @@
 # ChestProtect 兼容性模块
 
-:::info
+\:::info
 
 找不到在哪里下载JAR？ [点击这里](../faq/where-addons-compacts-at.md). [Click here](../faq/where-addons-compacts-at.md).
 
-:::
+\:::
 
 该拓展模块增加了对 [Chest Protect](https://www.spigotmc.org/resources/53494/) 的支持。
 

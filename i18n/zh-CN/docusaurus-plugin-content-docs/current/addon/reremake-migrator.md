@@ -1,22 +1,22 @@
 # Reremake转换附属插件
 
-:::info
+\:::info
 
 Can't find where to download the JAR? 找不到在哪里下载文件？ [点击这里](../faq/where-addons-compacts-at.md).
 
-:::
+\:::
 
-:::info
+\:::info
 
 此插件在 5.1.1.0 添加到 QuickShop-Hikari 中
 
-:::
+\:::
 
-:::caution
+\:::caution
 
 该附属插件仍处于实验阶段，所以请在使用之前正确管理您的备份文件 自行承担使用风险! Use at your own risk.
 
-:::
+\:::
 
 该附属添加了一个转换器，允许用户轻松地从 [QuickShop-Reremake](https://www.spigotmc.org/resources/62575/) 转换到 QuickShop-Hikari
 
@@ -24,11 +24,11 @@ Can't find where to download the JAR? 找不到在哪里下载文件？ [点击�
 
 ## 分步教程
 
-:::info
+\:::info
 
 请注意，如果您无法理解本教程的内容， 请加入我们的 Discord 频道或询问其他专业服务器所有者/操作者。
 
-:::
+\:::
 
 ### 备份所有内容
 

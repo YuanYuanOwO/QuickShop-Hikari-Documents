@@ -2,12 +2,12 @@
 
 ItemMatcher is a utility used by QuickShop-Hikari to compare the items, it is the most important thing in whole system.
 
-:::caution
+\:::caution
 
 If this feature is misconfigured, it will cause the plugin to stop working, and it can even be used for dupes, glitches or even worse.\
 **TL;DR: Keep default unless you know what you're doing.**
 
-:::
+\:::
 
 ## Matchers
 
@@ -33,13 +33,13 @@ But still, you can toggle to QuickShop Item Matcher if you need to customize the
 
 Customize only works under QuickShop Item Matcher.
 
-:::info
+\:::info
 
 Using the QuickShop Item Matcher may have a slight performance impact on the server. Using the Bukkit API to compare item by item results in more serialization/deserialization work.
 
 Keep using Bukkit Item Matcher if not necessary.
 
-:::
+\:::
 
 You can specific to enable or disable the some checks by tweak the configuration.
 
