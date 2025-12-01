@@ -1,16 +1,16 @@
 # List Addon
 
-:::info
+\:::info
 
 找不到在哪里下载JAR？ [点击这里](../faq/where-addons-compacts-at.md). [Click here](../faq/where-addons-compacts-at.md).
 
-:::
+\:::
 
-:::info
+\:::info
 
 此插件在 4.1.0.0-SNAPSHOT 添加到 QuickShop-Hikari 中
 
-:::
+\:::
 
 该拓展模块为插件添加了一个 `/quickshop list` 命令，这样管理员或者玩家就可以列出所有商店。
 

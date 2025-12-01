@@ -61,11 +61,11 @@ QuickShop-Hikari has built-in permissions in the list below:
 
 ## Configure the group's permissions
 
-:::caution
+\:::caution
 
 Incorrect group permissions configure will cause plugin stop working.
 
-:::
+\:::
 
 Open `group.yml` and you will be able to edit permissions in every single group.
 

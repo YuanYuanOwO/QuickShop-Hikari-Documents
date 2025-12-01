@@ -1,10 +1,10 @@
 # AdvancedRegionMarket
 
-:::info
+\:::info
 
 找不到在哪里下载JAR？ [点击这里](../faq/where-addons-compacts-at.md). [Click here](../faq/where-addons-compacts-at.md).
 
-:::
+\:::
 
 ARM 拓展模块增加了对 [AdvancedRegionMarket](https://www.spigotmc.org/resources/advancedregionmarket.58732/) 的支持。
 

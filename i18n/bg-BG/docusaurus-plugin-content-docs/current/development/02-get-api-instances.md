@@ -31,11 +31,11 @@ RegisteredServiceProvider<QuickShopProvider> provider = Bukkit.getServicesManage
 
 ### Getting with direct internal call
 
-:::warn
+\:::warn
 
 This approach is not recommended and compatibility may be poor.
 
-:::
+\:::
 
 ```java
 QuickShopAPI api = (QuickShopAPI)QuickShop.getInstance();

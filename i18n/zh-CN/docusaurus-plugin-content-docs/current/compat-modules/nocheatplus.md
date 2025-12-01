@@ -1,10 +1,10 @@
 # NoCheatPlus兼容模块
 
-:::info
+\:::info
 
 找不到在哪里下载JAR？ [点击这里](../faq/where-addons-compacts-at.md). [Click here](../faq/where-addons-compacts-at.md).
 
-:::
+\:::
 
 此兼容模块添加了与 NoCheatPlus 的兼容性。
 

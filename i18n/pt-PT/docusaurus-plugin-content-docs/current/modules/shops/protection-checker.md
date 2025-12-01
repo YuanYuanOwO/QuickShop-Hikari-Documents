@@ -61,11 +61,11 @@ shop:
 
 ## Disable Protection Checker
 
-:::caution
+\:::caution
 
 We're extremely NOT-RECOMMEND you disable protection checker, bad players can use QuickShop to lock other player's chests even in Residence, Land, Island, WorldGuard Region, Town, Plot even your SpawnPoint!
 
-:::
+\:::
 
 To disable protection checker, you can simple turn off the option in config.yml:
 

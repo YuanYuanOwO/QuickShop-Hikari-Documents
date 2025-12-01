@@ -1,10 +1,10 @@
 # DiscordSRV Addon
 
-:::info
+\:::info
 
 Can't find where to download the JAR? [Click here](../faq/where-addons-compacts-at.md).
 
-:::
+\:::
 
 DiscordSRV addon will allow you hook QuickShop-Hikari into your [DiscordSRV](https://www.spigotmc.org/resources/discordsrv.18494/), send real-time notifications to your players through Discord DM.
 

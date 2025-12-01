@@ -114,8 +114,8 @@ export default function Home() {
               </p>
               <ul>
                 <li>
-                  <Link to="/docs/configuration/overview">
-                    Configuration overview
+                  <Link to="#">
+                    Configuration overview(WIP)
                   </Link>
                 </li>
                 <li>
@@ -124,7 +124,7 @@ export default function Home() {
                   </Link>
                 </li>
                 <li>
-                  <Link to="/docs/setup/commands">
+                  <Link to="#">
                     Commands &amp; arguments(WIP)
                   </Link>
                 </li>

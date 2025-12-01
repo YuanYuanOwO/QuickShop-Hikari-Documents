@@ -1,16 +1,16 @@
 # ShopItemOnly 插件
 
-:::info
+\:::info
 
 找不到在哪里下载JAR？ [点击这里](../faq/where-addons-compacts-at.md). [Click here](../faq/where-addons-compacts-at.md).
 
-:::
+\:::
 
-:::info
+\:::info
 
 此插件在 4.1.0.0-SNAPSHOT 添加到 QuickShop-Hikari 中
 
-:::
+\:::
 
 此插件可防止玩家将非商店物品放入商店容器中。\
 不适用于 InventoryWrapper API 控制的商店。\

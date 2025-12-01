@@ -1,10 +1,10 @@
 # Plan Addon
 
-:::info
+\:::info
 
 Can't find where to download the JAR? [Click here](../faq/where-addons-compacts-at.md).
 
-:::
+\:::
 
 Plan addon allow server owners to showcase the recent QuickShop-Hikari activities on the server.
 

@@ -1,10 +1,10 @@
 # AngelChest
 
-:::info
+\:::info
 
 Can't find where to download the JAR? [Click here](../faq/where-addons-compacts-at.md).
 
-:::
+\:::
 
 This compatibility module adds [AngelChest](https://www.spigotmc.org/resources/88214) support.
 

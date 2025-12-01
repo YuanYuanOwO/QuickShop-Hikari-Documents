@@ -1,10 +1,10 @@
 # WorldGuard
 
-:::info
+\:::info
 
 Can't find where to download the JAR? [Click here](../faq/where-addons-compacts-at.md).
 
-:::
+\:::
 
 It registered two of flags into WorldGuard flags registry: `quickshophikari-create` and `quickshophikari-trade`.
 

@@ -1,10 +1,10 @@
 # Plan 拓展组件
 
-:::info
+\:::info
 
 找不到在哪里下载JAR？ [点击这里](../faq/where-addons-compacts-at.md). [Click here](../faq/where-addons-compacts-at.md).
 
-:::
+\:::
 
 Plan 扩展组件允许通过 Plan 在服务器上展示最近的 QuickShop-Hikari 活动。
 

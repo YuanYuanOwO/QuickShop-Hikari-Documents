@@ -1,16 +1,16 @@
 # Shop History
 
-:::info
+\:::info
 
 This feature added in 6.0.0.0.
 
-:::
+\:::
 
-:::info
+\:::info
 
 This wiki images may use non-English locale.
 
-:::
+\:::
 
 The ShopHistory panel provides access to the transaction history of a given store.
 
