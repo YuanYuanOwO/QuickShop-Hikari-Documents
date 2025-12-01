@@ -28,7 +28,6 @@ const config = {
     locales: [ 'de-DE', 'en-US', 'ja-JP', 'zh-CN', 'zh-HK', 'zh-TW'],
   },
   themes: [
-    // ... Your other themes.
     [
       require.resolve("@easyops-cn/docusaurus-search-local"),
       ({
@@ -45,8 +44,6 @@ const config = {
       ({
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
           editUrl: ({ locale, versionDocsDirPath, docPath }) => {
             if (locale !== DefaultLocale) {
               return `https://crowdin.com/project/quickshop-hikari-documents/${locale}`;
@@ -66,12 +63,7 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-      // We’ll let the logo block act as the “pill” like on the main site
       title: '',
-      logo: {
-        alt: 'QuickShop Hikari',
-        src: 'img/logo.png', // <-- add this file under static/img
-      },
       items: [
         // LEFT SIDE NAV LINKS
         {
@@ -97,20 +89,6 @@ const config = {
           docId: '/category/compatibility-modules', // /docs/category/compatibility-modules
           label: 'Compatibility',
           position: 'left',
-        },
-
-        // RIGHT SIDE PIXEL BUTTONS (MATCH MAIN SITE)
-        {
-          href: 'https://modrinth.com/plugin/quickshop-hikari',
-          label: 'View on Modrinth',
-          position: 'right',
-          className: 'qs-nav-btn qs-nav-btn--green',
-        },
-        {
-          href: 'https://discord.gg/Bu3dVtmsD3',
-          label: 'Join Discord',
-          position: 'right',
-          className: 'qs-nav-btn qs-nav-btn--yellow',
         },
 
         // Docusaurus locale dropdown (keep this!)

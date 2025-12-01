@@ -3,6 +3,7 @@ import clsx from 'clsx';
 import Link from '@docusaurus/Link';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import Layout from '@theme/Layout';
+import Starfield from '@site/src/components/Starfield/';
 
 import styles from './index.module.css';
 
@@ -18,6 +19,8 @@ export default function Home() {
     <Layout
       title={title}
       description="QuickShop-Hikari User Documents">
+      {/* Star overlay (JS-driven) */}
+      <Starfield />
       <main className={styles.page}>
         {/* Big center panel like the Next.js site */}
         <section className={styles.contentShell}>
@@ -27,6 +30,7 @@ export default function Home() {
               <img
                 src="img/logo.png"
                 alt="QuickShop Hikari Logo"
+                height="250px"
               />
             </div>
 
@@ -41,18 +45,32 @@ export default function Home() {
             <div className={styles.heroButtons}>
               <Link
                 className={clsx(styles.heroButton, styles.heroButtonPrimary)}
-                to="/docs/getting-started/install">
+                to="/docs/setup/install">
                 Getting Started
               </Link>
+
               <Link
                 className={clsx(styles.heroButton, styles.heroButtonGhost)}
-                to="/docs/configuration/overview">
-                Configuration
+                to="/docs/category/compatibility-modules">
+                Compatibility Modules
               </Link>
+
               <Link
                 className={clsx(styles.heroButton, styles.heroButtonGhost)}
                 to="/docs/category/addon">
                 Addons
+              </Link>
+
+              <Link
+                className={clsx(styles.heroButton, styles.heroButtonModrinth)}
+                to="https://modrinth.com/plugin/quickshop-hikari">
+                View on Modrinth
+              </Link>
+
+              <Link
+                className={clsx(styles.heroButton, styles.heroButtonDiscord)}
+                to="https://discord.gg/Bu3dVtmsD3">
+                Join Discord
               </Link>
             </div>
 

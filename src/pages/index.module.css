@@ -9,15 +9,19 @@
 .contentShell {
   width: 80%;
   max-width: 1100px;
-  background: linear-gradient(
-    to bottom,
-    rgba(17, 12, 52, 0.97),
-    rgba(7, 4, 26, 0.97)
-  );
-  border-radius: 24px;
-  border: 1px solid rgba(148, 163, 184, 0.45);
-  box-shadow: 0 40px 90px rgba(0, 0, 0, 0.9);
-  padding: 2.75rem 2.5rem 3rem;
+  margin: 0 auto;
+  margin-top: 2.5rem;
+
+  /* Pixel panel look */
+  background: rgba(33, 16, 62, 0.95); /* bg-[#21103e]/95 */
+  border: 3px solid #000;             /* border-[3px] border-black */
+  border-radius: 0;                   /* rounded-none */
+  padding: 1rem;                      /* p-4 */
+
+  /* Pixel drop shadow */
+  box-shadow: 0 10px 0 rgba(0, 0, 0, 0.85); /* shadow-[0_10px_0_0_rgba(0,0,0,0.85)] */
+
+  position: relative;
 }
 
 /* HERO */
@@ -28,8 +32,8 @@
 }
 
 .heroLogo img {
-  width: 160px;
-  height: auto;
+  width: auto;
+  height: 450px;
   margin-bottom: 1.5rem;
 }
 
@@ -84,6 +88,16 @@
   color: #e5e7eb;
 }
 
+.heroButtonModrinth {
+  background: linear-gradient(to bottom, #22c55e, #16a34a);
+  color: #020617;
+}
+
+.heroButtonDiscord {
+  background: linear-gradient(to bottom, #fcd34d, #f59e0b);
+  color: #020617;
+}
+
 .heroButton:hover {
   transform: translateY(-1px);
   box-shadow: 0 6px 0 rgba(0, 0, 0, 0.95);
@@ -128,37 +142,76 @@
   margin: 0 0.5rem;
 }
 
-/* SECTION GRID */
-
+/* SECTION GRID – stays basically the same */
 .sectionGrid {
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));
   gap: 1.4rem;
 }
 
+/* SECTION CARDS – match downloads boxes */
 .sectionCard {
-  background: radial-gradient(circle at top left, #1f163d 0, #050312 70%);
-  border-radius: 18px;
-  border: 1px solid rgba(148, 163, 184, 0.45);
-  padding: 1.25rem 1.35rem 1.3rem;
-  box-shadow: 0 18px 40px rgba(0, 0, 0, 0.85);
+  position: relative;
+
+  background: rgba(33, 16, 62, 0.95);
+  border: 3px solid #000;            
+  border-radius: 6px;               
+  padding: 1rem;                     
+
+  box-shadow: 0 6px 0 rgba(0, 0, 0, 0.85);
+
+  overflow: hidden;
 }
 
+/* Optional warm corner glow like downloads */
+.sectionCard::before {
+  content: '';
+  position: absolute;
+  inset: -40%;
+  background: radial-gradient(
+    circle at 0% 0%,
+    rgba(251, 191, 36, 0.18),
+    transparent 55%
+  );
+  opacity: 0.5;
+  pointer-events: none;
+}
+
+/* header text styled like the downloads box titles */
 .sectionCard h2 {
-  font-size: 0.96rem;
-  letter-spacing: 0.18em;
+  position: relative;
+  font-size: 0.9rem;
+  letter-spacing: 0.2em;
   text-transform: uppercase;
   color: #fcd100;
-  margin-bottom: 0.5rem;
+  margin-bottom: 0.55rem;
+  padding-bottom: 0.4rem;
 }
 
+/* little underline bar mimicking the category tag on downloads boxes */
+.sectionCard h2::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 34%;
+  max-width: 90px;
+  height: 2px;
+  border-radius: 999px;
+  background: linear-gradient(to right, #facc15, #fb923c);
+}
+
+/* description */
 .sectionCard p {
+  position: relative;
   font-size: 0.86rem;
   color: #e5e7eb;
   margin-bottom: 0.75rem;
 }
 
+/* list of links */
 .sectionCard ul {
+  position: relative;
   list-style: none;
   padding-left: 0;
   margin: 0;
