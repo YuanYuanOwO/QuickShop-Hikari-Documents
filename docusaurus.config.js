@@ -28,7 +28,6 @@ const config = {
     locales: [ 'de-DE', 'en-US', 'ja-JP', 'zh-CN', 'zh-HK', 'zh-TW'],
   },
   themes: [
-    // ... Your other themes.
     [
       require.resolve("@easyops-cn/docusaurus-search-local"),
       ({
@@ -45,8 +44,6 @@ const config = {
       ({
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
           editUrl: ({ locale, versionDocsDirPath, docPath }) => {
             if (locale !== DefaultLocale) {
               return `https://crowdin.com/project/quickshop-hikari-documents/${locale}`;
@@ -66,30 +63,41 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: 'QuickShop-Hikari User Documents',
-        logo: {
-          alt: 'My Site Logo',
-          src: 'img/logo.svg',
+      title: '',
+      items: [
+        // LEFT SIDE NAV LINKS
+        {
+          type: 'doc',
+          docId: 'intro',          // main landing doc
+          label: 'Home',
+          position: 'left',
         },
-        items: [
-          {
-            type: 'doc',
-            docId: 'intro',
-            position: 'left',
-            label: 'Docs',
-          },
-          {
-            type: 'localeDropdown',
-            position: 'right',
-          },
-          // { to: '/blog', label: 'Blog', position: 'left' },
-          // {
-          //   href: 'https://github.com/facebook/docusaurus',
-          //   label: 'GitHub',
-          //   position: 'right',
-          // },
-        ],
-      },
+        {
+          type: 'doc',
+          docId: 'setup/install', // adjust if your path is different
+          label: 'Getting Started',
+          position: 'left',
+        },
+        {
+          type: 'doc',
+          docId: '/category/addon', // /docs/category/addon
+          label: 'Addons',
+          position: 'left',
+        },
+        {
+          type: 'doc',
+          docId: '/category/compatibility-modules', // /docs/category/compatibility-modules
+          label: 'Compatibility',
+          position: 'left',
+        },
+
+        // Docusaurus locale dropdown (keep this!)
+        {
+          type: 'localeDropdown',
+          position: 'right',
+        },
+      ],
+    },
       footer: {
         style: 'dark',
         links: [
@@ -159,6 +167,11 @@ const config = {
           },
         ],
         copyright: `All contents are licensed under <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</a>. Built with Docusaurus.`,
+      },
+      colorMode: {
+        defaultMode: 'dark', // or 'dark', depending on your preference
+        disableSwitch: true,
+        respectPrefersColorScheme: false, // Optional: set to false if you don't want to respect system preferences
       },
       prism: {
         theme: lightCodeTheme,

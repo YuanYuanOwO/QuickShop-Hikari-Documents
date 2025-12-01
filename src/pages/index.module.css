@@ -1,23 +1,263 @@
-/**
- * CSS files with the .module.css suffix will be treated as CSS modules
- * and scoped locally.
- */
+/* Wrap page in center like the Next.js layout */
+.page {
+  display: flex;
+  justify-content: center;
+  padding: 4.5rem 0 4rem;
+}
 
-.heroBanner {
-  padding: 4rem 0;
-  text-align: center;
+/* Big panel that holds hero + cards; matches Next.js content card */
+.contentShell {
+  width: 80%;
+  max-width: 1100px;
+  margin: 0 auto;
+  margin-top: 2.5rem;
+
+  background: none;
+  border: none;
+  border-radius: 0;
+  padding: 1rem;
+
+  box-shadow: none;
+
   position: relative;
+}
+
+/* HERO */
+
+.hero {
+  text-align: center;
+  margin-bottom: 2.4rem;
+}
+
+.heroLogo img {
+  width: auto;
+  height: 450px;
+  margin-bottom: 1.5rem;
+}
+
+.heroTitle {
+  font-size: 1.85rem;
+  text-transform: uppercase;
+  letter-spacing: 0.22em;
+  color: #fcd100;
+  text-shadow: 0 3px 0 rgba(0, 0, 0, 0.85);
+  margin-bottom: 0.6rem;
+}
+
+.heroTagline {
+  max-width: 640px;
+  margin: 0.25rem auto 0;
+  font-size: 0.94rem;
+  color: #e5e7eb;
+}
+
+/* HERO BUTTONS */
+
+.heroButtons {
+  margin-top: 1.8rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.75rem;
+}
+
+.heroButton {
+  font-size: 0.7rem;
+  font-weight: 800;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  border-radius: 10px;
+  border: 3px solid #000;
+  padding: 0.55rem 1.2rem;
+  text-decoration: none !important;
+  box-shadow: 0 5px 0 rgba(0, 0, 0, 0.95);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.heroButtonPrimary {
+  background: linear-gradient(to bottom, #ffd54d, #ff9800);
+  color: #020617;
+}
+
+.heroButtonGhost {
+  background: #1f2937;
+  color: #e5e7eb;
+}
+
+.heroButtonModrinth {
+  background: linear-gradient(to bottom, #22c55e, #16a34a);
+  color: #020617;
+}
+
+.heroButtonDiscord {
+  background: linear-gradient(to bottom, #fcd34d, #f59e0b);
+  color: #020617;
+}
+
+.heroButtonGhost:hover {
+  background: rgba(19, 22, 39, 0.95);
+}
+
+.heroButtonModrinth:hover {
+  background: rgba(19, 22, 39, 0.95);
+}
+
+.heroButtonPrimary:hover {
+  background: rgba(19, 22, 39, 0.95);
+}
+
+.heroButtonDiscord:hover {
+  background: rgba(19, 22, 39, 0.95);
+}
+
+.heroButton:hover {
+  transform: translateY(-1px);
+  border: 3px solid #facc15;
+  border-radius: 6px;
+  box-shadow: 0 5px 0 rgba(250, 204, 21, 0.9);
+}
+
+.heroButton:active {
+  transform: translateY(2px);
+  box-shadow: 0 3px 0 rgba(0, 0, 0, 0.95);
+}
+
+/* HERO META LINE */
+
+.heroMeta {
+  margin-top: 1rem;
+  font-size: 0.68rem;
+  text-transform: uppercase;
+  letter-spacing: 0.18em;
+  color: #9ca3af;
+}
+
+.dot {
+  display: inline-block;
+  width: 7px;
+  height: 7px;
+  border-radius: 999px;
+  margin-right: 0.25rem;
+}
+
+.dotGreen {
+  background: #22c55e;
+}
+
+.dotBlue {
+  background: #38bdf8;
+}
+
+.dotPink {
+  background: #ec4899;
+}
+
+.metaSep {
+  margin: 0 0.5rem;
+}
+
+/* SECTION GRID – stays basically the same */
+.sectionGrid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1.4rem;
+}
+
+/* SECTION CARDS – match downloads boxes */
+.sectionCard {
+  position: relative;
+
+  background: rgba(19, 22, 39, 0.95);
+  border: 3px solid #facc15;
+  border-radius: 6px;
+  box-shadow: 0 10px 0 rgba(250, 204, 21, 0.9);          
+  padding: 1rem;
+
   overflow: hidden;
 }
 
-@media screen and (max-width: 996px) {
-  .heroBanner {
-    padding: 2rem;
-  }
+/* Optional warm corner glow like downloads */
+.sectionCard::before {
+  content: '';
+  position: absolute;
+  inset: -40%;
+  background: radial-gradient(
+    circle at 0% 0%,
+    rgba(251, 191, 36, 0.18),
+    transparent 55%
+  );
+  opacity: 0.5;
+  pointer-events: none;
 }
 
-.buttons {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+/* header text styled like the downloads box titles */
+.sectionCard h2 {
+  position: relative;
+  font-size: 0.9rem;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: #fcd100;
+  margin-bottom: 0.55rem;
+  padding-bottom: 0.4rem;
+}
+
+/* little underline bar mimicking the category tag on downloads boxes */
+.sectionCard h2::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 34%;
+  max-width: 90px;
+  height: 2px;
+  border-radius: 999px;
+  background: linear-gradient(to right, #facc15, #fb923c);
+}
+
+/* description */
+.sectionCard p {
+  position: relative;
+  font-size: 0.86rem;
+  color: #e5e7eb;
+  margin-bottom: 0.75rem;
+}
+
+/* list of links */
+.sectionCard ul {
+  position: relative;
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
+}
+
+.sectionCard li + li {
+  margin-top: 0.35rem;
+}
+
+.sectionCard a {
+  font-size: 0.8rem;
+  color: #a5b4fc;
+  text-decoration: none;
+}
+
+.sectionCard a:hover {
+  color: #c7d2fe;
+  text-decoration: underline;
+}
+
+@media (max-width: 996px) {
+  .page {
+    padding: 3rem 0 3rem;
+  }
+
+  .contentShell {
+    width: 92%;
+    padding: 2rem 1.35rem 2.4rem;
+  }
+
+  .sectionGrid {
+    grid-template-columns: 1fr;
+  }
 }

@@ -64,7 +64,7 @@
 ## 我应该使用哪一个？
 
 Well, it depends on what your needs are.\
-If you have an old server (<1.20) instance, Reremake is your only choice.\
+If you have an old server ({'<'}1.20) instance, Reremake is your only choice.\
 ~~If you are in China which has GFW interfere, you also should consider Reremake because it doesn't need to load libraries from Global Internet.~~ Solved in 6.0.0.0.
 
 如果所有这些都不适用，请尝试Hikari！
