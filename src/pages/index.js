@@ -3,7 +3,6 @@ import clsx from 'clsx';
 import Link from '@docusaurus/Link';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import Layout from '@theme/Layout';
-import Starfield from '@site/src/components/Starfield/';
 
 import styles from './index.module.css';
 
@@ -19,8 +18,6 @@ export default function Home() {
     <Layout
       title={title}
       description="QuickShop-Hikari User Documents">
-      {/* Star overlay (JS-driven) */}
-      <Starfield />
       <main className={styles.page}>
         {/* Big center panel like the Next.js site */}
         <section className={styles.contentShell}>
