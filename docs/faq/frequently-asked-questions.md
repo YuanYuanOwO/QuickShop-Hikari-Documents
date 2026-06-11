@@ -44,9 +44,3 @@ A: Maybe. Please open an issue on our GitHub for this.
 
 ### It cannot load on 1.7/1.8/1.9/1.10/1.11/1.12/1.13/1.14/1.15/1.16/1.17/1.18/1.19.  
 A: See "Tested Minecraft Versions", latest version only supports 1.20 and above.
-
-## Migrate from QuickShop-Reremake
-QuickShop-Hikari is different from Reremake and data are not compatible with each other.
-Hikari offers a converter that allows you to convert the data from Reremake to Hikari.
-
-[Check how migrate from QuickShop-Reremake](../addon/reremake-migrator)
