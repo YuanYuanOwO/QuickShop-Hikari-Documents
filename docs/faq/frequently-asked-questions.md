@@ -39,10 +39,10 @@ A: This may be caused either by odd plugins that QuickShop does (not) support or
 
 A: [Override the OTA translation](../modules/localization#override-the-ota-translation)
 
-**Q: Can you add support for plugin X?**  
+### Can you add support for plugin X?  
 A: Maybe. Please open an issue on our GitHub for this.
 
-**Q: It cannot load on 1.7/1.8/1.9/1.10/1.11/1.12/1.13/1.14/1.15/1.16/1.17/1.18/1.19.**  
+### It cannot load on 1.7/1.8/1.9/1.10/1.11/1.12/1.13/1.14/1.15/1.16/1.17/1.18/1.19.  
 A: See "Tested Minecraft Versions", latest version only supports 1.20 and above.
 
 ## Migrate from QuickShop-Reremake
