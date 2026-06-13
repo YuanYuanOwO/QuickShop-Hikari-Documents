@@ -52,6 +52,10 @@
 
 > Some plugins may not work correctly alongside QuickShop, and unfortunately there is often little we can do on our side to resolve these conflicts.
 
+#### ShutterBug
+
+> ShutterBug is known to conflict with QuickShop-Hikari's functionality.
+
 #### BungeeCord Chat Plugins
 
 > Most BungeeCord chat plugins are known to be incompatible with QuickShop.  
